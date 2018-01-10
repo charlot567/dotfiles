@@ -14,7 +14,6 @@ brew install wget
 brew install curl
 brew install git
 brew install git-crypt
-brew install imagemagick
 brew install node
 brew install ruby
 brew install python
@@ -22,12 +21,10 @@ brew install openssl
 brew install watchman
 brew install mongodb
 brew install awscli
-# brew install elasticsearch
 
 # Install GUI apps
 brew cask install google-chrome
 brew cask install sublime-text
-brew cask install visual-studio-code
 brew cask install vlc
 brew cask install slack
 brew cask install iterm2
@@ -39,6 +36,8 @@ brew cask install alfred
 brew cask install spectacle
 brew cask install skitch
 brew cask install numi
+brew cask install bartender
+brew cask install dropbox
 
 # Remove outdated versions from the cellar.
 brew cleanup
