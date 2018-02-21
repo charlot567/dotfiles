@@ -56,6 +56,7 @@ source ~/.dotfiles/macos.sh
 
 + https://github.com/mathiasbynens/dotfiles
 + https://github.com/sorin-ionescu/dotfiles
++ https://github.com/anault/dotfiles
 
 ## License
 
