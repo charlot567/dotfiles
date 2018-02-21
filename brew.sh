@@ -37,6 +37,7 @@ brew cask install flycut
 brew cask install android-studio
 brew cask install filezila
 brew cask install bartender
+brew cask install intellij-idea-ce
 
 # Remove outdated versions from the cellar.
 brew cleanup
