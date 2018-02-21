@@ -30,6 +30,7 @@ brew cask install alfred
 brew cask install spectacle
 brew cask install bartender
 brew cask install dropbox
+brew cask install flux
 
 # Remove outdated versions from the cellar.
 brew cleanup
