@@ -86,8 +86,8 @@ defaults write NSGlobalDomain AppleICUForce12HourTime -bool false
 # Display date like a boss
 defaults write com.apple.menuextra.clock DateFormat -string 'EEE MMM d  H:mm'
 
-# Show battery percentage
-defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+# Hide battery percentage
+defaults write com.apple.menuextra.battery ShowPercent -string "NO"
 
 ###############################################################################
 # SSD-specific tweaks                                                         #
@@ -126,6 +126,9 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "America/Montreal" > /dev/null
+
+# Set trackpad speed
+defaults write -g com.apple.trackpad.scaling 3
 
 ###############################################################################
 # Screen                                                                      #
@@ -243,7 +246,7 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
 # Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 30
+defaults write com.apple.dock tilesize -int 31
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
@@ -274,15 +277,15 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 defaults write com.apple.dock dashboard-in-overlay -bool true
 
 # Don’t automatically rearrange Spaces based on most recent use
-# defaults write com.apple.dock mru-spaces -bool true
+defaults write com.apple.dock mru-spaces -bool true
 
 # Remove the auto-hiding Dock delay
 defaults write com.apple.dock autohide-delay -float 0
 # Remove the animation when hiding/showing the Dock
 defaults write com.apple.dock autohide-time-modifier -float 0
 
-# Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true
+# Disable automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool false
 
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
@@ -304,7 +307,7 @@ find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -dele
 # 12: Notification Center
 
 # # Top right screen corner → Put display to sleep
-defaults write com.apple.dock wvous-tr-corner -int 10
+defaults write com.apple.dock wvous-tr-corner -int 5
 
 ###############################################################################
 # Safari & WebKit                                                             #
