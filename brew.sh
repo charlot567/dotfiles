@@ -31,6 +31,12 @@ brew cask install spectacle
 brew cask install bartender
 brew cask install dropbox
 brew cask install flux
+brew cask install adobe-creative-cloud
+brew cask install aerial
+brew cask install flycut
+brew cask install android-studio
+brew cask install filezila
+brew cask install bartender
 
 # Remove outdated versions from the cellar.
 brew cleanup
