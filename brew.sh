@@ -13,7 +13,6 @@ brew install zsh
 brew install wget
 brew install curl
 brew install git
-brew install git-crypt
 brew install node
 brew install ruby
 brew install python
@@ -24,18 +23,15 @@ brew install awscli
 
 # Install GUI apps
 brew cask install google-chrome
-brew cask install sublime-text
+brew cask install atom
 brew cask install vlc
 brew cask install slack
 brew cask install iterm2
 brew cask install tower
-brew cask install p4merge
 brew cask install ngrok
-brew cask install macdown
 brew cask install alfred
 brew cask install spectacle
 brew cask install skitch
-brew cask install numi
 brew cask install bartender
 brew cask install dropbox
 
