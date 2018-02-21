@@ -25,7 +25,7 @@ chsh -s /bin/zsh
 + Clone repository:
 
 ```bash
-git clone git://github.com/anault/dotfiles.git ~/.dotfiles
+git clone git://github.com/charlot567/dotfiles.git ~/.dotfiles
 ```
 
 + Link **dotfiles**:
