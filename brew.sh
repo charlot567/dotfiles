@@ -14,12 +14,9 @@ brew install wget
 brew install curl
 brew install git
 brew install node
-brew install ruby
-brew install python
 brew install openssl
 brew install watchman
 brew install mongodb
-brew install awscli
 
 # Install GUI apps
 brew cask install google-chrome
@@ -31,7 +28,6 @@ brew cask install tower
 brew cask install ngrok
 brew cask install alfred
 brew cask install spectacle
-brew cask install skitch
 brew cask install bartender
 brew cask install dropbox
 
