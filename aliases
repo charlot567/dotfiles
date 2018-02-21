@@ -11,6 +11,7 @@ alias home="cd ~"
 alias f26="cd ~/Factory26"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
+alias desktop="cd ~/Desktop"
 alias g="git"
 
 # Detect which `ls` flavor is in use
