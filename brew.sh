@@ -41,7 +41,6 @@ brew cask install aerial
 brew cask install flycut
 brew cask install android-studio
 brew cask install filezila
-brew cask install bartender
 brew cask install intellij-idea-ce
 brew cask install messenger
 
