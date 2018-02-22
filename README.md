@@ -19,6 +19,7 @@ Install **Prezto**:
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 chsh -s /bin/zsh
 ```
+** Don't forget to close the actual terminal and open another one **
 
 ## Installation
 
