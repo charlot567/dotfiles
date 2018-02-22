@@ -33,7 +33,6 @@ brew cask install iterm2
 brew cask install tower
 brew cask install ngrok
 brew cask install alfred
-brew cask install spectacle
 brew cask install bartender
 brew cask install dropbox
 brew cask install flux
