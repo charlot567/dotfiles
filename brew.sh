@@ -43,6 +43,7 @@ brew cask install android-studio
 brew cask install filezila
 brew cask install intellij-idea-ce
 brew cask install messenger
+brew cask install caffeine
 
 # Remove outdated versions from the cellar.
 brew cleanup
