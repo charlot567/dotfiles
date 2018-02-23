@@ -84,7 +84,7 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write NSGlobalDomain AppleICUForce12HourTime -bool false
 
 # Display date like a boss
-defaults write com.apple.menuextra.clock DateFormat -string 'EEE MMM d  H:mm'
+defaults write com.apple.menuextra.clock DateFormat -string 'HH:mm'
 
 # Hide battery percentage
 defaults write com.apple.menuextra.battery ShowPercent -string "NO"
