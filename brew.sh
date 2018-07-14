@@ -26,7 +26,7 @@ brew install mongodb
 
 # Install GUI apps
 brew cask install google-chrome
-brew cask install atom
+brew cask install vscode
 brew cask install vlc
 brew cask install slack
 brew cask install iterm2
@@ -35,15 +35,16 @@ brew cask install ngrok
 brew cask install alfred
 brew cask install bartender
 brew cask install dropbox
+brew cask install google-drive
 brew cask install flux
 brew cask install adobe-creative-cloud
 brew cask install aerial
 brew cask install flycut
 brew cask install android-studio
 brew cask install filezila
-brew cask install intellij-idea-ce
-brew cask install messenger
 brew cask install caffeine
+brew cask install appzapper
+brew cask install bar-magnet
 
 # Remove outdated versions from the cellar.
 brew cleanup
