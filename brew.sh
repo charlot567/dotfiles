@@ -26,7 +26,7 @@ brew install mongodb
 
 # Install GUI apps
 brew cask install google-chrome
-brew cask install vscode
+brew cask install visual-studio-code
 brew cask install vlc
 brew cask install slack
 brew cask install iterm2
