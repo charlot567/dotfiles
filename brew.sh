@@ -23,6 +23,7 @@ brew install node
 brew install openssl
 brew install watchman
 brew install mongodb
+brew install postgres
 
 # Install GUI apps
 brew cask install google-chrome
@@ -36,11 +37,9 @@ brew cask install alfred
 brew cask install bartender
 brew cask install dropbox
 brew cask install google-drive
-brew cask install flux
 brew cask install adobe-creative-cloud
 brew cask install aerial
 brew cask install flycut
-brew cask install android-studio
 brew cask install filezila
 brew cask install caffeine
 brew cask install appzapper
