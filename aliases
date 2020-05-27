@@ -8,7 +8,7 @@ alias .....="cd ../../../.."
 
 # Shortcuts
 alias home="cd ~"
-alias f26="cd ~/Factory26"
+alias b12="cd ~/Documents/Apprentx/B12"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias desktop="cd ~/Desktop"
