@@ -19,6 +19,7 @@ brew install zsh
 brew install wget
 brew install curl
 brew install git
+brew install git-crypt
 brew install node
 brew install openssl
 brew install watchman
@@ -36,11 +37,8 @@ brew cask install ngrok
 brew cask install alfred
 brew cask install bartender
 brew cask install dropbox
-brew cask install google-drive
-brew cask install adobe-creative-cloud
 brew cask install aerial
 brew cask install flycut
-brew cask install filezila
 brew cask install caffeine
 brew cask install appzapper
 brew cask install bar-magnet
