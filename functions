@@ -10,41 +10,10 @@ function cdf() {
 	cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')";
 }
 
-# `s` with no arguments opens the current directory in Sublime Text, otherwise
-# opens the given location
-function s() {
-	if [ $# -eq 0 ]; then
-		subl .;
-	else
-		subl "$@";
-	fi;
-}
+function restoredb { cd ~/Documents/Apprentx/B12Database; ./restore-local-backup.sh }
+function backupdb { cd ~/Documents/Apprentx/B12Database; ./backup-local.sh }
 
-# `v` with no arguments opens the current directory in Vim, otherwise opens the
-# given location
-function v() {
-	if [ $# -eq 0 ]; then
-		vim .;
-	else
-		vim "$@";
-	fi;
-}
+function bdb() { backupdb }
+function rdb() { restoredb }
 
-# `o` with no arguments opens the current directory, otherwise opens the given
-# location
-function o() {
-	if [ $# -eq 0 ]; then
-		open .;
-	else
-		open "$@";
-	fi;
-}
-
-# Open a mardown file with Macdown
-function md() {
-	if [ $# -eq 0 ]; then
-		open -a "Macdown";
-	else
-		open -a "Macdown" "$@";
-	fi
-}
+function customize() { nano /Users/charlot/.zshrc }
