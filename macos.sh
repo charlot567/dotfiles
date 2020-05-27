@@ -595,19 +595,6 @@ defaults write com.google.Chrome DisablePrintPreview -bool true
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 
 ###############################################################################
-# Sublime Text                                                                #
-###############################################################################
-
-# Install Sublime Text settings
-/bin/cp -f sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
-
-# Install Sublime Text packages
-/bin/cp -f sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Package\ Control.sublime-settings 2> /dev/null
-
-# Install Sublime Text key bindings
-/bin/cp -f sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Default\ \(OSX\).sublime-keymap 2> /dev/null
-
-###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
