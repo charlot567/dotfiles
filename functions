@@ -1,15 +1,5 @@
 #!/usr/bin/env bash
 
-# Create a new directory and enter it
-function mkd() {
-	mkdir -p "$@" && cd "$_";
-}
-
-# Change working directory to the top-most Finder window location
-function cdf() {
-	cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')";
-}
-
 function restoredb { cd ~/Documents/Apprentx/B12Database; ./restore-local-backup.sh }
 function backupdb { cd ~/Documents/Apprentx/B12Database; ./backup-local.sh }
 
