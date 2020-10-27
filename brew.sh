@@ -23,6 +23,7 @@ brew install git-crypt
 brew install node
 brew install watchman
 brew install postgres
+brew install heroku
 
 # Install GUI apps
 brew cask install 1password
