@@ -23,16 +23,16 @@ brew install node
 brew install postgres
 
 # Install GUI apps
-brew cask install google-chrome
-brew cask install firefox
-brew cask install visual-studio-code
-brew cask install vlc
-brew cask install slack
-brew cask install spotify
-brew cask install iterm2
-brew cask install tower
-brew cask install flycut
-brew cask install appzapper
+brew install google-chrome
+brew install firefox
+brew nstall visual-studio-code
+brew install vlc
+brew install slack
+brew install spotify
+brew install iterm2
+brew install tower
+brew install flycut
+brew install appzapper
 
 # Remove outdated versions from the cellar.
 brew cleanup
