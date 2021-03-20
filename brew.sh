@@ -15,18 +15,14 @@ brew update
 brew upgrade
 
 # Install command-line tools
-brew install zsh
 brew install wget
 brew install curl
 brew install git
 brew install git-crypt
 brew install node
-brew install watchman
 brew install postgres
-brew install heroku
 
 # Install GUI apps
-brew cask install 1password
 brew cask install google-chrome
 brew cask install firefox
 brew cask install visual-studio-code
@@ -35,12 +31,7 @@ brew cask install slack
 brew cask install spotify
 brew cask install iterm2
 brew cask install tower
-brew cask install ngrok
-brew cask install alfred
-brew cask install bartender
-brew cask install aerial
 brew cask install flycut
-brew cask install caffeine
 brew cask install appzapper
 
 # Remove outdated versions from the cellar.
